@@ -1,3 +1,10 @@
+//Astra Rai Daniels 
+//October 7, 2018
+//2:35 PM, Time Zone (GMT-T)
+
+
+//Instructions 
+
 /*
 Write a function called "isSameLength".
 Given two words, "isSameLength" returns whether the given words have the same length.
@@ -6,6 +13,7 @@ console.log(output); // --> true
 */
 
 //My Thought Process:
+
 //Write a function that compares length vaules of two strings
 //Use the string.length property to determine number of characters in each string
 //Use strict comparision operator to check if strings are the same length
