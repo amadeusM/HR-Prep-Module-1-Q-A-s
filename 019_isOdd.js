@@ -1,6 +1,6 @@
 //Astra Rai Daniels 
 //October 7, 2018
-//5:06 PM, Time Zone: (GMT-7)
+//5:06 PM 
 
 
 //Instructions
