@@ -6,8 +6,10 @@
 
 
 //Use the remainder operator, modulus, to determine if num1 and num2 are odd numbers.
-//Remember notes from Module 1, 019? The definition of an odd number is an integer which is not a multiple of two. 
-//If divided by two, the result is a fraction. The result of division is the quotient. The value of a remainder is its modulus. 
+//Remember notes from Module 1, 019? 
+//The definition of an odd number is an integer which is not a multiple of two. 
+//If divided by two, the result is a fraction. 
+//The result of division is the quotient. The value of a remainder is its modulus. 
 //Use the logical operator && compare values of num1 and num2, to return a boolean value 
 
 
