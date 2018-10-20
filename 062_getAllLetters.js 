@@ -1,0 +1,31 @@
+//Astra Rai Daniels
+//October 19, 2018
+//8:07 PM
+
+//Instructions:
+
+/*
+Write a function called "getAllLetters".
+
+Given a word, "getAllLetters" returns an array containing every character in the word. 
+
+Notes:
+* If given an empty string, it should return an empty array.
+
+var output = getAllLetters('Radagast');
+console.log(output); // --> ['R', 'a', 'd', 'a', 'g', 'a', 's', 't']
+*/
+
+//My Thoughts and Notes
+//split()
+/*
+The split() method splits a String object into an array of strings by separating the string into substrings, using a specified separator string to determine where to make each split.
+*/
+
+function getAllLetters(str) {
+  return str.split("");//remember no space between double quotes
+  //return str.split(" ");//returns ["Radagast"]
+  //return str.split('')//returns "Radagast"//single vs. double quotes
+}
+var output = getAllLetters('Radagast');
+console.log(output); // --> ['R', 'a', 'd', 'a', 'g', 'a', 's', 't']
