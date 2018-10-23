@@ -22,16 +22,14 @@ removeEvenValues(obj);
 console.log(obj); // --> { b: 3 }
 */
 //My Thoughts and Notes:
+//My Thoughts and Notes:
 /*
-//My Thought Process:
-
 -the remainder (%) operator returns the remainder left when one operand is divided by a second operand. 
 -division, result is quotient, the value of remainder is its modulus
--If a number has a remainder of zero, number is even
+-If a number has a remainder of zero, when divided by 2, number is even, if else, number is odd 
 -An even # is any integer (never a fraction) that can be divided exactly by two
--Write a function that returns a boolean value, true of false, based on if number is even or odd, use if/else statement within function
 -delelte operator: The JavaScript delete operator removes a property from an object; if no more references to the same property are held, it is eventually released automatically.
--Triple Equals === is superior to double equals. Whenever possible, you should use triple equals to test equality. By testing the type and value you can be sure that you are always executing a true equality test.
+-Triple Equals === is superior to double equals. Whenever possible,  use triple equals to test equality. By testing the type and value you can be sure that you are always executing a true equality test.
 */
 
 
