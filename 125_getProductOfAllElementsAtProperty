@@ -16,6 +16,13 @@ console.log(output); // --> 24
 */
 
 function getProductOfAllElementsAtProperty(obj, key) {
+  // your code here
+
+}
+
+
+
+function getProductOfAllElementsAtProperty(obj, key) {
   var product = 1;
   if (
     typeof obj[key] != 'undefined' &&
@@ -37,9 +44,4 @@ var obj = {
 
 var output = getProductOfAllElementsAtProperty(obj, 'key');
 console.log(output); // --> 24
-
-function getProductOfAllElementsAtProperty(obj, key) {
-  // your code here
-
-}
 
